@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
     domain="dev-mpq54151hv76tg8q.us.auth0.com"
     clientId="B2gWoRRYMFG77Xpx53Fc1YemUn4J8gDF"
     authorizationParams={{
-      redirect_uri: window.location.origin
+      redirect_uri: window.location.origin + "/to-do-app/"
     }}
   >
   <StrictMode>
