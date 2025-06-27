@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/ShaluRamnani/to-do-app",
+  "homepage": "https://shaluramnani.github.io/to-do-app",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
