@@ -132,7 +132,7 @@ function App() {
           />
           <button
             className="bg-emerald-600 text-white text-xs font-medium py-1 px-4 rounded-md shadow-sm transition duration-200 mt-0"
-            onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
+            onClick={() => logout({ logoutParams: { returnTo: window.location.origin + "/to-do-app" } })}
           >
             Logout
           </button>
